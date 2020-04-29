@@ -20,7 +20,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
     * `git checkout master`
     * `git pull`
 1. Create a new tag for `master`:
-    * `git tag -s vx.x.x -m "vx.x.x"`
+    * `git tag vx.x.x -m "vx.x.x"`
 1. Push the new tag:
     * `git push origin vx.x.x`
 1. Go to GitHub and check that the release was successful:
