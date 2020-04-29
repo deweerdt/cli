@@ -8,6 +8,10 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 1. Checkout and update the master branch and ensure all tests are passing:
     * `git checkout master`
     * `git pull`
+    * install and update necessary dependencies:
+        * go get -v -u honnef.co/go/tools/cmd/staticcheck
+        * go get -v -u golang.org/x/lint/golint
+        * go get -v -u github.com/securego/gosec/cmd/gosec
     * `make all`
 1. Update the [`CHANGELOG.md`](https://github.com/fastly/cli/blob/master/CHANGELOG.md):
     * Apply necessary labels (`enchancement`, `bug`, `documentation` etc) to all PRs intended for the release that you wish to appear in the `CHANGELOG.md`
